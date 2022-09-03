@@ -10,16 +10,16 @@ from .database import engine
 from .routers import post, user, auth, vote
 from .config import settings
 
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 origins = ["*"]
-
+# origins = ["https://www.google.com", "https://www.youtube.com/"]
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["*"],  # Restrict POST/DELETE request
     allow_headers=["*"],
 )
 
