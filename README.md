@@ -1,8 +1,16 @@
 # Python Api Development
 
 Building an end-to-end python based web app with different components, such as:
-- python
-- FastAPI
-- Flask
-- PostgreSQL
-- Docker
+- Python based web-api is developed using FastAPI.
+- API contains user login, adding content. 
+- For database Postgresql is used. 
+- Used sqlalchemy and alembic for sql migration.
+- Implemented all the CRUD operations and ORM(Object-Relational Mapping) is introduced.
+- For user authentication Hashing Passwords using JWT tokens is incorporated.
+- API testing is performed using Postman.
+- Used Cross-Origin Resource Sharing (CORS) mechanisms so that http request and data-tramsfer can be done via web browser.
+- API is deployed using heroku.
+- Visit https://fastapi-rohan.herokuapp.com/docs and try out
+
+
+.
