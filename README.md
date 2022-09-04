@@ -11,3 +11,7 @@ Building an end-to-end python based web app with different components, such as:
 - Used Cross-Origin Resource Sharing (CORS) mechanisms so that http request and data-tramsfer can be done via web browser.
 - API is deployed using heroku.
 - Visit [api](https://fastapi-rohan.herokuapp.com/docs) and try out
+
+To Do:
+- Setup CI/CD 
+- Setup Docker
