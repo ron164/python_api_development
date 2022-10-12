@@ -12,7 +12,9 @@ Building an end-to-end python based web app with different components, such as:
 - API is deployed using heroku.
 - Visit [api](https://fastapi-rohan.herokuapp.com/docs) and try out
 - Setting up Docker
+
 ![Alt text](/doc/screenshot.png?raw=true "FastAPI deployed on Heroku")
 
+
 To Do:
-- Setup CI/CD
+- [ ] Setup CI/CD
